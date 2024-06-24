@@ -15,6 +15,9 @@ class FruitsMarket extends StatelessWidget {
   Widget build(BuildContext context) {
     SizeConfig().init(context);
     return GetMaterialApp(
+      theme: ThemeData(
+        fontFamily: 'Cairo',
+      ),
       debugShowCheckedModeBanner: false,
       home: SplashView(),
     );
